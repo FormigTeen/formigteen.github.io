@@ -24,11 +24,62 @@ header img {
     float: left;
 }
 
-header h1 {
+header div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+header div h1 {
     font-family: "Aldrich", sans-serif;
     color: #ECF0F1;
     font-size: 50px;
-    text-align: center;
-    vertical-align: middle;
+    font-weight: normal;
 }
 
+header h1 span {
+        font-weight: bold;
+        color: #2ECC71;
+}
+
+header div h3 {
+    margin-top: 20px;
+    font-family: "Aldrich", sans-serif;
+    color: #ECF0F0;
+    opacity: 0.5;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: justify;
+    margin-left: 48%;
+}
+
+header p {
+    font-family: "Aldrich", sans-serif;
+    color: #ECF0F1;
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-left: 45%;
+    text-align: justify;
+}
+
+.package-one {
+    margin-top: -10px;
+    margin-left: 70%;
+    display: block;
+}
+
+.package-two {
+    margin-top: 60px;
+    margin-left: 78.7%;
+}
+
+.shape {
+    height: 40px;
+    width: 40px;
+    background-color: #2ECC71;
+    border-radius: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 5px;
+}
