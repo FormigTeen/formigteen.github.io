@@ -8,7 +8,8 @@ header {
     background-color: #282830;
     margin: 0;
     padding: 0;
-    height: 400px;
+    max-height: 300px;
+
 }
 
 header * {
@@ -17,18 +18,19 @@ header * {
 }
 
 header img {
-    max-height: 100%;
+    max-width: 300px;
     margin: 0;
     margin-left: 30px;
     padding: 0;
     float: left;
 }
 
-header div {
+header > div {
     position: relative;
-    top: 50%;
+    top: 150%;
     transform: translateY(-50%);
     text-align: center;
+
 }
 
 header div h1 {
@@ -47,6 +49,7 @@ header div h3 {
     margin-top: 20px;
     font-family: "Aldrich", sans-serif;
     color: #ECF0F0;
+    text-shadow: 1px 4px 6px #141414, 0 0 0 #141414, 1px 4px 6px #141414;
     opacity: 0.5;
     font-size: 25px;
     font-weight: normal;
@@ -57,13 +60,13 @@ header div h3 {
 header p {
     font-family: "Aldrich", sans-serif;
     color: #ECF0F1;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 40px;
     margin-left: 45%;
     text-align: justify;
 }
 
-header div:nth-child(3) {
+header > div:nth-child(3) {
     height: 200px;
 }
 
@@ -102,18 +105,35 @@ header div:nth-child(3) div .shape {
     border-radius: 5px;
 }
 
-header div:nth-child(3) .package-one {
-    float: left;
-    top: 0px;
-    left: 100px;
-    margin-left: 5%;
+header div:nth-child(3) .package {
+    top: 0;
 }
 
-header div:nth-child(3) .package-two {
-    margin-left: 0;
-    top: 50px;
-    left: -100px;
+header div:nth-child(3) .package .package-one {
     position: relative;
-    float: left;
-    height: auto;
+    left: 100px;
+}
+
+header div:nth-child(3) .package .package-two {
+    margin: 0;
+    right: 100px;
+    top: 50px;
+    position: relative;
+    width: auto;
+}
+
+nav {
+    background-color: #2ECC71;
+    width: 300px;
+    max-width: 300px;
+    height: 900px;
+    margin: 0;
+    margin-top: 0;
+    margin-left: 30px;
+
+}
+
+nav h1 {
+    margin: 0;
+    padding: 0;
 }
