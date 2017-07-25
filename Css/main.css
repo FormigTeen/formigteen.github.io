@@ -63,23 +63,57 @@ header p {
     text-align: justify;
 }
 
-.package-one {
-    margin-top: -10px;
-    margin-left: 70%;
-    display: block;
+header div:nth-child(3) {
+    height: 200px;
 }
 
-.package-two {
-    margin-top: 60px;
-    margin-left: 78.7%;
+header div:nth-child(3) ul {
+    margin-top: 50px;
+    margin-left: 40%;
 }
 
-.shape {
+header div:nth-child(3) ul li {
     height: 40px;
     width: 40px;
+    display: inline;
+    float: left;
+    padding-right: 10px;
+}
+
+header div:nth-child(3) ul li a {
+    height: inherit;
+    width: inherit;
+}
+
+header div:nth-child(3) ul li a img{
+    height: inherit;
+    width: inherit;
+    margin: 0;
+    opacity: 0.6;
+}
+
+header div:nth-child(3) div .shape {
+    height: 30px;
+    width: 30px;
     background-color: #2ECC71;
     border-radius: 80px;
     float: left;
     margin-right: 20px;
     border-radius: 5px;
+}
+
+header div:nth-child(3) .package-one {
+    float: left;
+    top: 0px;
+    left: 100px;
+    margin-left: 5%;
+}
+
+header div:nth-child(3) .package-two {
+    margin-left: 0;
+    top: 50px;
+    left: -100px;
+    position: relative;
+    float: left;
+    height: auto;
 }
