@@ -27,7 +27,7 @@ header img {
 
 header > div {
     position: relative;
-    top: 150%;
+    top: 150px;
     transform: translateY(-50%);
     text-align: center;
 
@@ -122,18 +122,3 @@ header div:nth-child(3) .package .package-two {
     width: auto;
 }
 
-nav {
-    background-color: #2ECC71;
-    width: 300px;
-    max-width: 300px;
-    height: 900px;
-    margin: 0;
-    margin-top: 0;
-    margin-left: 30px;
-
-}
-
-nav h1 {
-    margin: 0;
-    padding: 0;
-}
