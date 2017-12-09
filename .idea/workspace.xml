@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f639d8-a587-4efe-9764-9771deb298b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scss/Global.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Scss/Switch.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Colors.scssc" afterPath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Colors.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Header.scssc" afterPath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Header.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Main.scssc" afterPath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Main.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Switch.scssc" afterPath="$PROJECT_DIR$/Scss/.sass-cache/75cab132cf8e41b1b7f82c980f75e237b99f791e/Switch.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Css/Main.css" afterPath="$PROJECT_DIR$/Css/Main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Css/Main.css.map" afterPath="$PROJECT_DIR$/Css/Main.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/Header.scss" afterPath="$PROJECT_DIR$/Scss/Header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/Main.scss" afterPath="$PROJECT_DIR$/Scss/Main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Scss/Switch.scss" afterPath="$PROJECT_DIR$/Scss/Switch.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="183">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#!!top" expanded="false" />
                 <element signature="n#address#0;n#header#0;n#body#0;n#!!top" expanded="false" />
@@ -42,8 +37,8 @@
       <file leaf-file-name="Switch.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scss/Switch.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="53" column="40" lean-forward="false" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="80">
+              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -52,8 +47,8 @@
       <file leaf-file-name="Header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scss/Header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="38" />
+            <state relative-caret-position="188">
+              <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -77,11 +72,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scss/Header.scss" />
         <option value="$PROJECT_DIR$/Scss/Colors.scss" />
         <option value="$PROJECT_DIR$/Scss/Global.scss" />
         <option value="$PROJECT_DIR$/Scss/Main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Scss/Header.scss" />
         <option value="$PROJECT_DIR$/Scss/Switch.scss" />
       </list>
     </option>
@@ -182,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512772780659</updated>
       <workItem from="1512772782005" duration="5388000" />
-      <workItem from="1512813851491" duration="7146000" />
+      <workItem from="1512813851491" duration="8853000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12534000" />
+    <option name="totallyTimeSpent" value="14241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="3" width="1366" height="732" extended-state="6" />
@@ -238,17 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#address#0;n#header#0;n#body#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -259,16 +243,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="38" />
+        <state relative-caret-position="188">
+          <caret line="61" column="3" lean-forward="false" selection-start-line="61" selection-start-column="3" selection-end-line="61" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="n#div#0;n#header#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#address#0;n#header#0;n#body#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scss/Switch.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="53" column="40" lean-forward="false" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="80">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
