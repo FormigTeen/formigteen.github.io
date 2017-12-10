@@ -1,0 +1,100 @@
+%center-absolute {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+@mixin table($size){
+  display: grid;
+  grid-template-columns: $size $size;
+  grid-gap: 10px;
+  background-color: transparent;
+  color: #444;
+}
+
+%cell {
+  background-color: transparent;
+  border-radius: 5px
+}
+
+* {
+  font-family: $font-main;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+
+  position: relative;
+  height: 300px;
+  background-color: $top;
+
+  h1, h2 {
+    color: $light;
+  }
+
+  > img {
+    @extend %center-absolute;
+    max-width: 40%;
+    max-height: 40%;
+    margin-left: 100px;
+    padding:10px;
+    background-color:lighten( $top, 15% );
+
+    border-radius: 50%;
+    border:10px solid lighten( $top, 5% )
+
+
+  }
+
+   > div:first-of-type {
+    @extend %center-absolute;
+    margin-left: 350px;
+    h1 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+    h2 {
+      font-size: 15px;
+    }
+  }
+
+  > address {
+    margin-left: 800px;
+    @extend %center-absolute;
+    @include table(250px);
+    > div {
+      > img {
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        margin-right: 20px;
+        filter:invert(50%);
+      }
+      > a {
+          letter-spacing: 1.5 px;
+          color:lighten( $top, 30% );
+          text-decoration: none;
+          font-weight: 100;
+          font-size: 13px;
+          font-style: normal;
+          transition:.5s;
+
+        &:hover {
+            color:lighten( $top, 70% );
+          }
+      }
+
+      &:last-of-type {
+        > a {
+          cursor: default;
+        }
+      }
+
+      @extend %cell;
+      margin-bottom: 10px;
+    }
+  }
+}
