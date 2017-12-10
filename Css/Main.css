@@ -117,4 +117,55 @@ header {
 .switch--shadow:checked + label:after {
   transform: translateX(30px); }
 
+section {
+  column-count: 2;
+  column-gap: 80px;
+  margin: 70px;
+  text-align: justify; }
+  section > div {
+    margin-bottom: 40px; }
+    section > div > h1 {
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      color: #212121;
+      text-shadow: 1px 0 #212121;
+      letter-spacing: 1px;
+      font-weight: 900;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #212121;
+      padding-bottom: 5.5px; }
+    section > div > p {
+      color: #3b3b3b; }
+    section > div > div {
+      border-left: 1px solid #212121;
+      margin-left: 25px;
+      padding-left: 35px;
+      padding-bottom: 25px; }
+      section > div > div > h1 {
+        position: relative;
+        color: #3b3b3b;
+        margin-bottom: 10px;
+        font-size: 16px; }
+        section > div > div > h1 > span {
+          color: #bababa; }
+        section > div > div > h1::before {
+          position: absolute;
+          left: -42px;
+          top: 5px;
+          content: '';
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          -moz-border-radius: 7.5px;
+          -webkit-border-radius: 7.5px;
+          border-radius: 7.5px;
+          background-color: #212121; }
+      section > div > div > p {
+        font-size: 16px;
+        color: #6e6e6e; }
+
+p {
+  line-height: 150%; }
+
 /*# sourceMappingURL=Main.css.map */
