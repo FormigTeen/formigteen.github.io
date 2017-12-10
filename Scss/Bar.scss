@@ -29,7 +29,7 @@ $backColor: lighten( $top, 65% );
       text-align: center;
       line-height: 120px;
       h1 {
-        font-size: 16px;
+        font-size: 12px;
         color: $top;
         text-transform: uppercase;
       }
@@ -46,7 +46,7 @@ $backColor: lighten( $top, 65% );
  * Mixin for progress-% class
  * ------------------------------------- */
 
-$step: 5;
+$step: 10;
 
 $loops: round(100 / $step);
 $increment: 360 / $loops;

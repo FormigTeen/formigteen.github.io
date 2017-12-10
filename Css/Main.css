@@ -137,6 +137,8 @@ section {
       margin-bottom: 25px; }
     section > div > p {
       color: #3b3b3b; }
+      section > div > p + p {
+        margin-top: 10px; }
     section > div > div {
       margin-left: 60px;
       position: relative;
@@ -156,6 +158,8 @@ section {
       section > div > div > p {
         font-size: 16px;
         color: #6e6e6e; }
+        section > div > div > p + p {
+          margin-top: 10px; }
     section > div:nth-child(2) > div:after {
       position: absolute;
       left: -36px;
@@ -188,7 +192,7 @@ section {
     section > div:nth-child(4) > div > h1::before {
       position: absolute;
       left: -55px;
-      top: 5px;
+      top: 0px;
       content: "";
       background-image: url(../Assets/Images/school.png);
       background-size: 40px 40px;
@@ -201,7 +205,7 @@ section {
       padding-bottom: 0px;
       column-count: 2;
       column-gap: 5px;
-      width: 180px; }
+      width: 200px; }
       section > div:nth-child(5) > div > div {
         position: relative;
         min-height: 28px;
@@ -234,8 +238,7 @@ section {
             width: 470px; }
         section > div:nth-child(5) > div > div > h1 {
           color: #3b3b3b;
-          font-size: 16px;
-          text-transform: uppercase; }
+          font-size: 16px; }
           section > div:nth-child(5) > div > div > h1 > span {
             color: #bababa;
             font-size: 16px; }
@@ -270,49 +273,29 @@ section {
             text-align: center;
             line-height: 120px; }
             section > div:nth-child(6) > div > div > div div h1 {
-              font-size: 16px;
+              font-size: 12px;
               color: #212121;
               text-transform: uppercase; }
       section > div:nth-child(6) > div .progress-0 {
         background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(90deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-5 {
-        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(108deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-10 {
         background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(126deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-15 {
-        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(144deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-20 {
         background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(162deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-25 {
-        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(180deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-30 {
         background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(198deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-35 {
-        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(216deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-40 {
         background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(234deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-45 {
-        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(252deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-50 {
         background-image: linear-gradient(-90deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-55 {
-        background-image: linear-gradient(-72deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-60 {
         background-image: linear-gradient(-54deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-65 {
-        background-image: linear-gradient(-36deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-70 {
         background-image: linear-gradient(-18deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-75 {
-        background-image: linear-gradient(0deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-80 {
         background-image: linear-gradient(18deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-85 {
-        background-image: linear-gradient(36deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-90 {
         background-image: linear-gradient(54deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
-      section > div:nth-child(6) > div .progress-95 {
-        background-image: linear-gradient(72deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
       section > div:nth-child(6) > div .progress-100 {
         background-image: linear-gradient(90deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
 

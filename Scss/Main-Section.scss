@@ -21,6 +21,11 @@ section {
     }
     > p {
       color: lighten( $top, 10% );
+
+      & + p {
+        margin-top: 10px;
+      }
+
     }
 
     > div {
@@ -49,6 +54,9 @@ section {
         > p {
           font-size: 16px;
           color: lighten( $top, 30% );
+          & + p {
+            margin-top: 10px;
+          }
         }
       }
 
@@ -104,7 +112,7 @@ section {
           &::before {
             position: absolute;
             left: -55px;
-            top: 5px;
+            top: 0px;
             content: "";
             background-image: url(../Assets/Images/school.png);
             background-size: 40px 40px;;
@@ -124,7 +132,7 @@ section {
         padding-bottom: 0px;
         column-count: 2;
         column-gap: 5px;
-        width: 180px;
+        width: 200px;
 
         > div {
           position: relative;
@@ -148,7 +156,7 @@ section {
           > h1 {
             color: lighten( $top, 10% );
             font-size: 16px;
-            text-transform: uppercase;
+            //text-transform: uppercase;
             > span {
               color: lighten( $top, 60% );
               font-size: 16px;
