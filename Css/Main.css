@@ -131,39 +131,114 @@ section {
       text-shadow: 1px 0 #212121;
       letter-spacing: 1px;
       font-weight: 900;
-      margin-bottom: 25px;
       text-transform: uppercase;
       border-bottom: 3px solid #212121;
-      padding-bottom: 5.5px; }
+      padding-bottom: 5.5px;
+      margin-bottom: 25px; }
     section > div > p {
       color: #3b3b3b; }
     section > div > div {
-      border-left: 1px solid #212121;
-      margin-left: 25px;
-      padding-left: 35px;
+      margin-left: 60px;
+      position: relative;
       padding-bottom: 25px; }
       section > div > div > h1 {
         position: relative;
         color: #3b3b3b;
-        margin-bottom: 10px;
         font-size: 16px; }
         section > div > div > h1 > span {
-          color: #bababa; }
-        section > div > div > h1::before {
-          position: absolute;
-          left: -42px;
-          top: 5px;
-          content: '';
-          display: inline-block;
-          width: 12px;
-          height: 12px;
-          -moz-border-radius: 7.5px;
-          -webkit-border-radius: 7.5px;
-          border-radius: 7.5px;
-          background-color: #212121; }
+          color: #bababa;
+          font-size: 16px; }
+        section > div > div > h1 + h2 {
+          color: #bababa;
+          font-size: 16px; }
+      section > div > div > h1 + p, section > div > div h2 + p {
+        margin-top: 15px; }
       section > div > div > p {
         font-size: 16px;
         color: #6e6e6e; }
+    section > div:nth-child(2) > div:after {
+      position: absolute;
+      left: -36px;
+      top: 5px;
+      height: 100%;
+      border-left: solid 1px #212121;
+      content: ''; }
+    section > div:nth-child(2) > div > h1::before {
+      position: absolute;
+      left: -42px;
+      top: 5px;
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      -moz-border-radius: 7.5px;
+      -webkit-border-radius: 7.5px;
+      border-radius: 7.5px;
+      background-color: #212121; }
+    section > div:nth-child(3) > div > h1::before {
+      position: absolute;
+      left: -55px;
+      top: 5px;
+      content: "";
+      background-image: url(../Assets/Images/medal.png);
+      background-size: 40px 40px;
+      display: inline-block;
+      width: 40px;
+      height: 40px; }
+    section > div:nth-child(4) > div > h1::before {
+      position: absolute;
+      left: -55px;
+      top: 5px;
+      content: "";
+      background-image: url(../Assets/Images/school.png);
+      background-size: 40px 40px;
+      display: inline-block;
+      width: 40px;
+      height: 40px; }
+    section > div:nth-child(5) > div {
+      margin-left: 0px;
+      margin-bottom: 25px;
+      padding-bottom: 0px;
+      column-count: 2;
+      column-gap: 5px;
+      width: 180px; }
+      section > div:nth-child(5) > div > div {
+        position: relative;
+        min-height: 28px;
+        display: flex;
+        align-items: center; }
+        section > div:nth-child(5) > div > div:last-child {
+          width: 470px;
+          height: 28px;
+          background: #212121;
+          border-radius: 0.8em; }
+          section > div:nth-child(5) > div > div:last-child.value-1 {
+            width: 47px; }
+          section > div:nth-child(5) > div > div:last-child.value-2 {
+            width: 94px; }
+          section > div:nth-child(5) > div > div:last-child.value-3 {
+            width: 141px; }
+          section > div:nth-child(5) > div > div:last-child.value-4 {
+            width: 188px; }
+          section > div:nth-child(5) > div > div:last-child.value-5 {
+            width: 235px; }
+          section > div:nth-child(5) > div > div:last-child.value-6 {
+            width: 282px; }
+          section > div:nth-child(5) > div > div:last-child.value-7 {
+            width: 329px; }
+          section > div:nth-child(5) > div > div:last-child.value-8 {
+            width: 376px; }
+          section > div:nth-child(5) > div > div:last-child.value-9 {
+            width: 423px; }
+          section > div:nth-child(5) > div > div:last-child.value-10 {
+            width: 470px; }
+        section > div:nth-child(5) > div > div > h1 {
+          color: #3b3b3b;
+          font-size: 16px;
+          text-transform: uppercase; }
+          section > div:nth-child(5) > div > div > h1 > span {
+            color: #bababa;
+            font-size: 16px; }
 
 p {
   line-height: 150%; }
