@@ -131,39 +131,173 @@ section {
       text-shadow: 1px 0 #212121;
       letter-spacing: 1px;
       font-weight: 900;
-      margin-bottom: 25px;
       text-transform: uppercase;
       border-bottom: 3px solid #212121;
-      padding-bottom: 5.5px; }
+      padding-bottom: 5.5px;
+      margin-bottom: 25px; }
     section > div > p {
       color: #3b3b3b; }
+      section > div > p + p {
+        margin-top: 10px; }
     section > div > div {
-      border-left: 1px solid #212121;
-      margin-left: 25px;
-      padding-left: 35px;
+      margin-left: 60px;
+      position: relative;
       padding-bottom: 25px; }
       section > div > div > h1 {
         position: relative;
         color: #3b3b3b;
-        margin-bottom: 10px;
         font-size: 16px; }
         section > div > div > h1 > span {
-          color: #bababa; }
-        section > div > div > h1::before {
-          position: absolute;
-          left: -42px;
-          top: 5px;
-          content: '';
-          display: inline-block;
-          width: 12px;
-          height: 12px;
-          -moz-border-radius: 7.5px;
-          -webkit-border-radius: 7.5px;
-          border-radius: 7.5px;
-          background-color: #212121; }
+          color: #bababa;
+          font-size: 16px; }
+        section > div > div > h1 + h2 {
+          color: #bababa;
+          font-size: 16px; }
+      section > div > div > h1 + p, section > div > div h2 + p {
+        margin-top: 15px; }
       section > div > div > p {
         font-size: 16px;
         color: #6e6e6e; }
+        section > div > div > p + p {
+          margin-top: 10px; }
+    section > div:nth-child(2) > div:after {
+      position: absolute;
+      left: -36px;
+      top: 5px;
+      height: 100%;
+      border-left: solid 1px #212121;
+      content: ''; }
+    section > div:nth-child(2) > div > h1::before {
+      position: absolute;
+      left: -42px;
+      top: 5px;
+      content: '';
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      -moz-border-radius: 7.5px;
+      -webkit-border-radius: 7.5px;
+      border-radius: 7.5px;
+      background-color: #212121; }
+    section > div:nth-child(3) > div > h1::before {
+      position: absolute;
+      left: -55px;
+      top: 5px;
+      content: "";
+      background-image: url(../Assets/Images/medal.png);
+      background-size: 40px 40px;
+      display: inline-block;
+      width: 40px;
+      height: 40px; }
+    section > div:nth-child(4) > div > h1::before {
+      position: absolute;
+      left: -55px;
+      top: 0px;
+      content: "";
+      background-image: url(../Assets/Images/school.png);
+      background-size: 40px 40px;
+      display: inline-block;
+      width: 40px;
+      height: 40px; }
+    section > div:nth-child(5) > div {
+      margin-left: 0px;
+      margin-bottom: 25px;
+      padding-bottom: 0px;
+      column-count: 2;
+      column-gap: 5px;
+      width: 200px; }
+      section > div:nth-child(5) > div > div {
+        position: relative;
+        min-height: 28px;
+        display: flex;
+        align-items: center; }
+        section > div:nth-child(5) > div > div:last-child {
+          width: 470px;
+          height: 28px;
+          background: #212121;
+          border-radius: 0.8em; }
+          section > div:nth-child(5) > div > div:last-child.value-1 {
+            width: 47px; }
+          section > div:nth-child(5) > div > div:last-child.value-2 {
+            width: 94px; }
+          section > div:nth-child(5) > div > div:last-child.value-3 {
+            width: 141px; }
+          section > div:nth-child(5) > div > div:last-child.value-4 {
+            width: 188px; }
+          section > div:nth-child(5) > div > div:last-child.value-5 {
+            width: 235px; }
+          section > div:nth-child(5) > div > div:last-child.value-6 {
+            width: 282px; }
+          section > div:nth-child(5) > div > div:last-child.value-7 {
+            width: 329px; }
+          section > div:nth-child(5) > div > div:last-child.value-8 {
+            width: 376px; }
+          section > div:nth-child(5) > div > div:last-child.value-9 {
+            width: 423px; }
+          section > div:nth-child(5) > div > div:last-child.value-10 {
+            width: 470px; }
+        section > div:nth-child(5) > div > div > h1 {
+          color: #3b3b3b;
+          font-size: 16px; }
+          section > div:nth-child(5) > div > div > h1 > span {
+            color: #bababa;
+            font-size: 16px; }
+    section > div:nth-child(6) > div {
+      @import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+      /* -------------------------------------
+       * Optional centered circle w/text
+       * ------------------------------------- */
+      /* -------------------------------------
+       * Mixin for progress-% class
+       * ------------------------------------- */ }
+      section > div:nth-child(6) > div > div {
+        width: 600px;
+        margin: 0 auto; }
+        section > div:nth-child(6) > div > div > div {
+          float: left;
+          margin-right: 60px;
+          margin-bottom: 30px;
+          position: relative;
+          width: 200px;
+          height: 200px;
+          border-radius: 50%;
+          background-color: #212121; }
+          section > div:nth-child(6) > div > div > div div {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            background-color: #ecf0f1;
+            border-radius: 50%;
+            margin-left: 40px;
+            margin-top: 40px;
+            text-align: center;
+            line-height: 120px; }
+            section > div:nth-child(6) > div > div > div div h1 {
+              font-size: 12px;
+              color: #212121;
+              text-transform: uppercase; }
+      section > div:nth-child(6) > div .progress-0 {
+        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(90deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-10 {
+        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(126deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-20 {
+        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(162deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-30 {
+        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(198deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-40 {
+        background-image: linear-gradient(90deg, #c7c7c7 50%, transparent 50%, transparent), linear-gradient(234deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-50 {
+        background-image: linear-gradient(-90deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-60 {
+        background-image: linear-gradient(-54deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-70 {
+        background-image: linear-gradient(-18deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-80 {
+        background-image: linear-gradient(18deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-90 {
+        background-image: linear-gradient(54deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
+      section > div:nth-child(6) > div .progress-100 {
+        background-image: linear-gradient(90deg, #212121 50%, transparent 50%, transparent), linear-gradient(270deg, #212121 50%, #c7c7c7 50%, #c7c7c7); }
 
 p {
   line-height: 150%; }

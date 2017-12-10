@@ -1,3 +1,4 @@
+
 section {
   column-count: 2;
   column-gap: 80px;
@@ -12,28 +13,64 @@ section {
       text-shadow: 1px 0 $top;
       letter-spacing: 1px;
       font-weight: 900;
-      margin-bottom: 25px;
       text-transform: uppercase;
       border-bottom: 3px solid $top;
       padding-bottom: 5.5px;
+      margin-bottom: 25px;
+
     }
     > p {
       color: lighten( $top, 10% );
-    }
-    > div {
-      border-left: 1px solid $top;
-      margin-left: 25px;
-      padding-left: 35px;
-      padding-bottom: 25px;
-      > h1 {
-        position: relative;
-        color: lighten( $top, 10% );
-        margin-bottom: 10px;
-        font-size: 16px;
-        > span {
-          color: lighten( $top, 60% );;
 
+      & + p {
+        margin-top: 10px;
+      }
+
+    }
+
+    > div {
+        margin-left: 60px;
+        position: relative;
+        padding-bottom: 25px;
+        > h1 {
+          position: relative;
+          color: lighten( $top, 10% );
+          font-size: 16px;
+          > span {
+            color: lighten( $top, 60% );
+            font-size: 16px;
+          }
+
+          & + h2 {
+            color: lighten( $top, 60% );
+            font-size: 16px;
+          }
         }
+
+        > h1 + p, h2 + p {
+          margin-top: 15px;
+        }
+
+        > p {
+          font-size: 16px;
+          color: lighten( $top, 30% );
+          & + p {
+            margin-top: 10px;
+          }
+        }
+      }
+
+    &:nth-child(2) {
+      > div {
+        &:after {
+          position: absolute;
+          left: -36px;
+          top: 5px;
+          height: 100%;
+          border-left: solid 1px $top;
+          content: '';
+        }
+        > h1 {
         &::before {
           position: absolute;
           left: -42px;
@@ -48,9 +85,91 @@ section {
           background-color: $top;
         }
       }
-      > p {
-        font-size: 16px;
-        color: lighten( $top, 30% );
+      }
+    }
+
+    &:nth-child(3) {
+      > div {
+         > h1 {
+           &::before {
+             position: absolute;
+             left: -55px;
+             top: 5px;
+             content: "";
+             background-image: url(../Assets/Images/medal.png);
+             background-size: 40px 40px;;
+             display: inline-block;
+             width: 40px;
+             height: 40px;
+           }
+         }
+       }
+    }
+
+    &:nth-child(4) {
+      > div {
+        > h1 {
+          &::before {
+            position: absolute;
+            left: -55px;
+            top: 0px;
+            content: "";
+            background-image: url(../Assets/Images/school.png);
+            background-size: 40px 40px;;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+
+    &:nth-child(5) {
+
+      > div {
+        margin-left: 0px;
+        margin-bottom: 25px;
+        padding-bottom: 0px;
+        column-count: 2;
+        column-gap: 5px;
+        width: 200px;
+
+        > div {
+          position: relative;
+          min-height:28px;
+          display: flex;
+          align-items: center;
+          &:last-child {
+            $total-width : 470px;
+            width: $total-width;
+            height: 28px;
+            background: $top;
+            border-radius:0.8em;
+
+            @for $i from 1 through 10 {
+              &.value-#{$i} {
+                width: ( ( $total-width / 10 ) * $i );
+              }
+            }
+
+          }
+          > h1 {
+            color: lighten( $top, 10% );
+            font-size: 16px;
+            //text-transform: uppercase;
+            > span {
+              color: lighten( $top, 60% );
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+    }
+
+    &:nth-child(6) {
+      > div {
+        @import "Bar.scss";
       }
     }
   }
